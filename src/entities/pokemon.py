@@ -1,6 +1,6 @@
 from .card import Card
 from .attack import Attack
-from ..utils import PokemonType, PokemonStatus
+from ..utils import PokemonType
 
 
 class Pokemon(Card):
@@ -23,7 +23,7 @@ class Pokemon(Card):
         self.weakness = weakness
 
         self.hp = hp
-        self.status = PokemonStatus.NORMAL
+        self.statuses = []
         self.energy_attached = 0
 
     def __str__(self):

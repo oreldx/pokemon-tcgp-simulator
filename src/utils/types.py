@@ -26,7 +26,6 @@ class PokemonType(Enum):
 
 
 class PokemonStatus(Enum):
-    NORMAL = "Normal"
     BURN = "Burn"
     POISON = "Poison"
     PARALYSIS = "Paralysis"
